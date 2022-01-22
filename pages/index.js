@@ -24,7 +24,7 @@ const Home = () => {
             <Container>
               <h1
                 className="mb-5 display-2 fw-bold text-uppercase"
-                style={{ color: "white", fontFamily: "Nunito Sans" }}
+                style={{ color: "FloralWhite", fontFamily: "Nunito Sans" }}
               >
                 Diablo Barber Co.
               </h1>
@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       <div>
         <Parallax strength={500}>
-          <Background className="vw">
+          <Background className="vw-100 vh-100">
             <Image
               src="/img/2.jpg"
               alt=""
@@ -53,12 +53,12 @@ const Home = () => {
               loading="eager"
             />
           </Background>
-          <div style={{ height: "100vh" }}></div>
+          <div className="vh-100"></div>
         </Parallax>
       </div>
       <div>
         <Parallax strength={500}>
-          <Background className="vw">
+          <Background className="vw-100 vh-100">
             <Image
               src="/img/3.jpg"
               alt=""
@@ -67,12 +67,12 @@ const Home = () => {
               loading="eager"
             />
           </Background>
-          <div style={{ height: "100vh" }}></div>
+          <div className="vh-100"></div>
         </Parallax>
       </div>
       <div>
         <Parallax strength={500}>
-          <Background className="vw">
+          <Background className="vw-100 vh-100">
             <Image
               src="/img/4.jpg"
               alt=""
@@ -81,7 +81,7 @@ const Home = () => {
               loading="eager"
             />
           </Background>
-          <div style={{ height: "100vh" }}></div>
+          <div className="vh-100"></div>
         </Parallax>
       </div>
     </div>
